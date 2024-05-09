@@ -1,9 +1,10 @@
-// Code Keypad Component Here
+// Keypad.js
+import React from 'react';
 
-function Keypad (){
-    return (
-        <div></div>
-    )
+function Keypad() {
+  return (
+    <input type="password" onChange={() => console.log('Entering password...')} />
+  );
 }
 
 export default Keypad;
